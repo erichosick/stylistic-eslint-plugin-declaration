@@ -1,0 +1,11 @@
+{
+  "name": "stylistic-eslint-plugin-declaration",
+  "version": "0.0.1",
+  "description": "Minimal project to show warning message Could not find a declaration file for module '@stylistic/eslint-plugin'.",
+  "scripts": {
+    "eslint": "ESLINT_USE_FLAT_CONFIG=true npx eslint --config eslint.config.mjs ."
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.4.0"
+  }
+}
